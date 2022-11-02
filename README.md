@@ -1,4 +1,4 @@
-# Ex-08-Data-Visualization-
+# Ex-07-Data-Visualization-
 
 ## AIM
 To Perform Data Visualization on a complex dataset and save the data to a file. 
@@ -18,5 +18,11 @@ Apply data visualization techniques to identify the patterns of the data.
 
 
 # CODE
+Name : Aakash H
+Register Number : 212220040002
+**Data Visualization - Superstore.csv**
 
 # OUPUT
+
+# RESULT
+Thus the Data Visualization for the given dataset had been executed successfully
