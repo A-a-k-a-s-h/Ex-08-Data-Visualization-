@@ -16,12 +16,14 @@ Apply Feature generation and selection techniques to all the features of the dat
 ### STEP 4
 Apply data visualization techniques to identify the patterns of the data.
 
-
 # CODE
+```
+/* 
 Name : Aakash H
 Register Number : 212220040002
 **Data Visualization - Superstore.csv**
-
+*/
+```
 # OUPUT
 
 # RESULT
