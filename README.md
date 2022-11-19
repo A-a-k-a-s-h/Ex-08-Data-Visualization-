@@ -22,9 +22,40 @@ Apply data visualization techniques to identify the patterns of the data.
 Name : Aakash H
 Register Number : 212220040002
 **Data Visualization - Superstore.csv**
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sbn
+df=pd.read_csv("/content/Superstore.csv", encoding = 'windows-1252')
+df.head()
+df.info()
+df.isnull().sum()
+sbn.countplot(x=df['Segment'],data=df)
+plt.title("Number of Sales in Segment")
+sbn.barplot(df['City'],df['Profit'])
+plt.title("Number of Profit in Cities")
+sbn.countplot(x=df['Ship Mode'],data=df)
+plt.title("Number of profits in Ship Mode")
+sbn.boxplot(df['Region'], df['Sales'])
+plt.title("Sales of Product based on Region")
+sbn.scatterplot(x=df['Sales'], y=df['Profit'])
+sbn.scatterplot(df['Sales'],df['Profit'],hue=df['Segment'])
+sbn.scatterplot(df['Sales'],df['City'],hue=df['Profit'])
+sbn.scatterplot(df['Sales'],df['Profit'],hue=df['Ship Mode'])
+sbn.scatterplot(df['Sales'],df['Profit'],hue=df['Region'])
 */
 ```
 # OUPUT
+## Data Visualization - Superstore.csv
+![Data_Visualization](/images/img.png) 
+![Data_Visualization](/images/img2.png)
+![Data_Visualization](/images/img3.png)
+![Data_Visualization](/images/img4.png)
+![Data_Visualization](/images/img5.png)
+![Data_Visualization](/images/img6.png)
+![Data_Visualization](/images/img7.png)
+![Data_Visualization](/images/img8.png)
+
 
 # RESULT
-Thus the Data Visualization for the given dataset had been executed successfully
+Thus the Data Visualization for the given dataset had been executed successfully.
